@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D973CE63245758CF00166E0A /* PieShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973CE62245758CF00166E0A /* PieShapeView.swift */; };
+		D973CE65245764E800166E0A /* PrimitiveShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973CE64245764E800166E0A /* PrimitiveShapesView.swift */; };
 		D997D140244F6AE500EABCBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997D13F244F6AE500EABCBC /* AppDelegate.swift */; };
 		D997D142244F6AE500EABCBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997D141244F6AE500EABCBC /* SceneDelegate.swift */; };
 		D997D144244F6AE500EABCBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997D143244F6AE500EABCBC /* ContentView.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D973CE62245758CF00166E0A /* PieShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieShapeView.swift; sourceTree = "<group>"; };
+		D973CE64245764E800166E0A /* PrimitiveShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveShapesView.swift; sourceTree = "<group>"; };
 		D997D13C244F6AE500EABCBC /* WorkingDrawings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkingDrawings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D997D13F244F6AE500EABCBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D997D141244F6AE500EABCBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				D997D13F244F6AE500EABCBC /* AppDelegate.swift */,
 				D997D141244F6AE500EABCBC /* SceneDelegate.swift */,
 				D997D143244F6AE500EABCBC /* ContentView.swift */,
+				D973CE62245758CF00166E0A /* PieShapeView.swift */,
+				D973CE64245764E800166E0A /* PrimitiveShapesView.swift */,
 				D997D145244F6AE700EABCBC /* Assets.xcassets */,
 				D997D14A244F6AE700EABCBC /* LaunchScreen.storyboard */,
 				D997D14D244F6AE700EABCBC /* Info.plist */,
@@ -268,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D997D140244F6AE500EABCBC /* AppDelegate.swift in Sources */,
+				D973CE65245764E800166E0A /* PrimitiveShapesView.swift in Sources */,
+				D973CE63245758CF00166E0A /* PieShapeView.swift in Sources */,
 				D997D142244F6AE500EABCBC /* SceneDelegate.swift in Sources */,
 				D997D144244F6AE500EABCBC /* ContentView.swift in Sources */,
 			);
