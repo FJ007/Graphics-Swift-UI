@@ -6,11 +6,20 @@
 //  Copyright © 2020 Silversun Studio. All rights reserved.
 //
 
+// https://developer.apple.com/documentation/swiftui/path
+// https://developer.apple.com/documentation/uikit/uicolor/standard_colors
+
+
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        Path() { path in
+            path.move(to: CGPoint(x: 30, y: 30))
+            path.addLine(to: CGPoint(x: 230, y: 30))
+            path.addLine(to: CGPoint(x: 230, y: 150))
+            path.addLine(to: CGPoint(x: 30, y: 150))
+        }.fill(Color.gray)
     }
 }
 
