@@ -14,12 +14,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Path() { path in
-            path.move(to: CGPoint(x: 30, y: 30))
-            path.addLine(to: CGPoint(x: 230, y: 30))
-            path.addLine(to: CGPoint(x: 230, y: 150))
-            path.addLine(to: CGPoint(x: 30, y: 150))
-        }.fill(Color.gray)
+        ZStack{
+            Path() { path in
+                path.move(to: CGPoint(x: 30, y: 30))
+                path.addLine(to: CGPoint(x: 230, y: 30))
+                path.addLine(to: CGPoint(x: 230, y: 150))
+                path.addLine(to: CGPoint(x: 30, y: 150))
+            }.fill(Color.gray)
+            Path() { path in
+                path.move(to: CGPoint(x: 40, y: 40))
+                path.addLine(to: CGPoint(x: 220, y: 40))
+                path.addLine(to: CGPoint(x: 220, y: 140))
+                path.addLine(to: CGPoint(x: 40, y: 140))
+                path.closeSubpath()
+            }.stroke(Color.blue, lineWidth: 5)
+        }
+       
     }
 }
 
