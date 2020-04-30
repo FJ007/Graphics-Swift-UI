@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D96A7FE5245B39CC00981FC1 /* IndicatorFitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A7FE4245B39CC00981FC1 /* IndicatorFitView.swift */; };
 		D973CE63245758CF00166E0A /* PieShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973CE62245758CF00166E0A /* PieShapeView.swift */; };
 		D973CE65245764E800166E0A /* PrimitiveShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973CE64245764E800166E0A /* PrimitiveShapesView.swift */; };
 		D997D140244F6AE500EABCBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997D13F244F6AE500EABCBC /* AppDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D96A7FE4245B39CC00981FC1 /* IndicatorFitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorFitView.swift; sourceTree = "<group>"; };
 		D973CE62245758CF00166E0A /* PieShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieShapeView.swift; sourceTree = "<group>"; };
 		D973CE64245764E800166E0A /* PrimitiveShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveShapesView.swift; sourceTree = "<group>"; };
 		D997D13C244F6AE500EABCBC /* WorkingDrawings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkingDrawings.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,7 @@
 				D997D141244F6AE500EABCBC /* SceneDelegate.swift */,
 				D997D143244F6AE500EABCBC /* ContentView.swift */,
 				D973CE62245758CF00166E0A /* PieShapeView.swift */,
+				D96A7FE4245B39CC00981FC1 /* IndicatorFitView.swift */,
 				D973CE64245764E800166E0A /* PrimitiveShapesView.swift */,
 				D997D145244F6AE700EABCBC /* Assets.xcassets */,
 				D997D14A244F6AE700EABCBC /* LaunchScreen.storyboard */,
@@ -275,6 +278,7 @@
 			files = (
 				D997D140244F6AE500EABCBC /* AppDelegate.swift in Sources */,
 				D973CE65245764E800166E0A /* PrimitiveShapesView.swift in Sources */,
+				D96A7FE5245B39CC00981FC1 /* IndicatorFitView.swift in Sources */,
 				D973CE63245758CF00166E0A /* PieShapeView.swift in Sources */,
 				D997D142244F6AE500EABCBC /* SceneDelegate.swift in Sources */,
 				D997D144244F6AE500EABCBC /* ContentView.swift in Sources */,
