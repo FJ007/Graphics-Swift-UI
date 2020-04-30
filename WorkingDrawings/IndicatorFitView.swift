@@ -22,13 +22,15 @@ struct IndicatorFitView: View {
             Spacer()
             ZStack{
                 Circle()
-                    .stroke(Color.gray, lineWidth: 10)
+                    .stroke(Color.gray, lineWidth: 20)
                     .opacity(0.2)
                     .frame(width: 250, height: 250)
                 Circle()
-                    .trim(from: 0, to: 0.65)
-                    .stroke(colorBlueGradient, lineWidth: 20)
+                    .trim(from: 0, to: 0.7)
+                    .stroke(colorBlueGradient,
+                            style: StrokeStyle(lineWidth: 20, lineCap: .round, lineJoin: .round))
                     .frame(width: 250, height: 250)
+                    .rotationEffect(Angle(degrees: 270.0))
                 .overlay(
                     VStack{
                         Image(systemName: "bed.double")
