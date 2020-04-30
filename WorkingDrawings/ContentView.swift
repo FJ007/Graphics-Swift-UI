@@ -13,7 +13,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        VStack (alignment: .center) {
             Text("Path Shapes")
                 .font(.largeTitle)
                 .bold()
